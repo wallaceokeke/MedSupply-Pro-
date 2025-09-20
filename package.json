@@ -1,0 +1,28 @@
+{
+    "name": "med-supply-mvp",
+    "version": "1.0.0",
+    "description": "Medical Supply Management Platform with Purple & White Theme",
+    "scripts": {
+        "start": "concurrently \"cd backend && python app.py run\" \"cd frontend && npm start\"",
+        "setup": "cd backend && pip install -r requirements.txt && cd ../frontend && npm install",
+        "init-db": "cd backend && python app.py initdb",
+        "backend": "cd backend && python app.py run",
+        "frontend": "cd frontend && npm start",
+        "build": "cd frontend && npm run build"
+    },
+    "devDependencies": {
+        "concurrently": "^7.6.0"
+    },
+    "keywords": [
+        "medical",
+        "supply",
+        "management",
+        "react",
+        "flask",
+        "purple",
+        "white",
+        "theme"
+    ],
+    "author": "MedSupply Pro Team",
+    "license": "MIT"
+}

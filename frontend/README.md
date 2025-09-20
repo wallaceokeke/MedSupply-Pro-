@@ -1,0 +1,1 @@
+Run 'npm install' then 'npm start' to run the React frontend. Configure proxy to backend or use absolute API URLs.
